@@ -33,7 +33,7 @@ const App = () => {
                         tasks.map((task, i) => (
                             <li key={i} className='list-group-item d-flex justify-content-between'>
                                 {task}
-                                <button onClick={() => deleteTask(i)}>del</button>
+                                <button className='btn btn-danger btn-sm' onClick={() => deleteTask(i)}>del</button>
                             </li>
                         ))
                     }

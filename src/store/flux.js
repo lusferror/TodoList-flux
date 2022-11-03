@@ -1,7 +1,12 @@
 const getState = ({ getStore, getActions, setStore }) => {
     return {
         store: {
-            tasks: []
+            tasks: [
+                "Task 1",
+                "Task 2",
+                "Task 3",
+                "Task 4"
+            ]
         },
         actions: {
             addTask: (task) => {
