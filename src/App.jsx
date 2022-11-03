@@ -25,7 +25,7 @@ const App = () => {
     return (
         <>
             <h1>APP React</h1>
-            <div className='d-flex flex-column w-25 mx-auto'>
+            <div className='d-flex flex-column w-md-25 mx-auto'>
                 <input type="text" placeholder='Ingrese nueva tarea' className='form-control mb-3' onKeyUp={handleKeyUp} />
                 <ul className="list-group">
                     {
